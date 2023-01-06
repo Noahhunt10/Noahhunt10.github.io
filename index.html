@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+
+
+
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Noah's Portfolio</title>
 </head>
 <body>
-    <h1>Noah</h1>
+    <header>
+        
+        <a href="#about-me" class="header-links">About Me</a>
+        <a href="#skills" class="header-links">Skills</a>
+        <h1 id="header-name">Noah Hunt</h1>
+        <a href="#projects" class="header-links">Projects</a>
+        <a href="#contact" class="header-links">Contact Me</a> 
+
+        
+    </header>
+    <section id="about-me">
+        <h2 id="about-header">About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div id="skill-pics">
+            <img src="./logos/js.png">JavaScript</img>
+            <img src="./logos/css.png">CSS</img>
+            <img src="./logos/html.png">HTML</img>
+            <img src="./logos/node.png">Node.js</img>
+            <img src="./logos/postgresql.png">PostgreSQL</img>
+            <img src="./logos/postman.png">Postman</img>
+            <img src="./logos/git.png">Git/Github</img>
+        </div>
+            
+    </section>
+        
+        
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-video">
+            <a class='project-links' href="http://54.215.22.105/" target="_blank" rel="noreferrer noopener">Random Pokemon Team Generator<a>
+            <img 
+                class="vidyard-player-embed"
+                src="https://play.vidyard.com/o5xJw9nmZdfk6kjcYtpuJN.jpg"
+                data-uuid="o5xJw9nmZdfk6kjcYtpuJN"
+                data-v="4"
+                data-type="inline"
+            />
+        </div>
+    </section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div id="contact-pics">
+        <div class="contact-divs">
+        <img src="./logos/linkdin.png" ></img>
+        <a href="https://www.linkedin.com/in/noah-hunt-981a67260/" target="_blank" rel="noreferrer noopener" id="contact-linkdin">https://www.linkedin.com/in/noah-hunt-981a67260/</a>
+        </div>
+        <div class="contact-divs">
+        <img src="./logos/email.png"></img>
+        <a id="contact-email">noahhuntdev@gmail.com</a>
+    </div>
+    </div>
+
+</section>
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
 </body>
 </html>
