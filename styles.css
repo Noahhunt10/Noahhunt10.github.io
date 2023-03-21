@@ -37,7 +37,7 @@ header{
 .header-links{
     text-decoration: none;
     color: black;
-    font-family: 'Yeon Sung';font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;font-size: 20px;
 
 }
 .header-links:hover{
@@ -55,7 +55,7 @@ header{
     
 }
 h2{
-    font-family: 'Yeon Sung';
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 35px;
 }
 #skills{
@@ -93,15 +93,16 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     
 }
 .project-links{
     text-decoration: none;
     color: black;
-    font-family: 'Yeon Sung';
-    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
     margin: 5px;
-    width: 150px
+    
 
 }
 .project-links:hover{
@@ -129,7 +130,7 @@ p{
 #contact-linkdin{
     text-decoration: none;
     color: black;
-    font-family: 'Yeon Sung';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin: 5px;
     width: 150px
@@ -142,9 +143,16 @@ p{
 #contact-email{
     text-decoration: none;
     color: black;
-    font-family: 'Yeon Sung';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin: 5px;
     width: 150px
+}
+.projects-div {
+    display: flex;
+    justify-content: space-evenly;  
+}
+img{
+    width: 100px
 }
 
